@@ -1,0 +1,95 @@
+from turtle import forward, right, speed
+
+
+def vehinhnha():
+    #khoi tao thu vien turtle 
+    import turtle
+    c = turtle.Turtle()
+    turtle.bgcolor("purple")
+   
+    c.pensize(2)
+    c.pencolor("black")
+    
+    c.fillcolor("pink")
+    c.begin_fill()
+    for i in range(2):#ve than nha
+        c.fd(200);
+        c.rt(90);
+        c.fd(180);
+        c.rt(90);
+    c.forward(200) #ve canh nha
+    c.left(30)
+    c.forward(150)
+    c.right(120)
+    c.forward(180)
+    c.right(60)
+    c.forward(150)
+    c.end_fill()
+    c.right(120)
+    c.forward(180)
+    c.left(30)
+    c.fillcolor("brown")
+    c.begin_fill()
+    for i in range(3):#ve mai nha
+        c.forward(200)
+        c.left(120)
+    c.forward(200)
+    c.right(90)
+    c.forward(150)
+    c.right(90)
+    c.forward(200)
+    c.end_fill()  
+    c.right(30)
+    c.penup()
+    c.forward(80)
+    c.right(60)
+    c.forward(30)
+    c.pendown()
+    #cửa sổ bên
+    c.fillcolor("blue")
+    c.begin_fill()
+    c.forward(60)
+    c.right(120)
+    c.forward(60)
+    c.right(60)
+    c.forward(60)
+    c.right(120)
+    c.forward(60)
+    
+    c.penup()
+    c.right(90)
+    c.forward(240)
+    c.pendown()
+    for i in range(2):
+        c.left(90)
+        c.forward(150)
+        c.left(90)
+        c.forward(70)
+    c.end_fill()
+    c.penup()
+    c.forward(500)
+    c.pendown()
+    c.fillcolor("brown")
+    c.begin_fill()
+    for i in range(2):
+        c.left(90)
+        c.forward(150)
+        c.left(90)
+        c.forward(40)
+    c.end_fill()
+    c.fillcolor("green")
+    c.begin_fill()
+    c.penup()
+    c.backward(20)
+    c.right(90)
+    a=50
+    c.forward(a)
+    c.right(150)
+    for j in range(3):
+        c.forward(a)
+        c.right(60)
+   
+    c.end_fill()
+    turtle.exitonclick()
+if __name__ == "__main__":
+    vehinhnha()
