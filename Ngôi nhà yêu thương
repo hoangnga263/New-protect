@@ -73,21 +73,20 @@ def vehinhnha():
     c.begin_fill()
     for i in range(2):
         c.left(90)
-        c.forward(150)
+        c.forward(200)
         c.left(90)
-        c.forward(40)
+        c.forward(60)
     c.end_fill()
+
     c.fillcolor("green")
     c.begin_fill()
     c.penup()
-    c.backward(20)
+    c.backward(30)
     c.right(90)
-    a=50
-    c.forward(a)
-    c.right(150)
-    for j in range(3):
-        c.forward(a)
-        c.right(60)
+    for i in range(3):
+        c.circle(80)
+        c.right(90)
+   
    
     c.end_fill()
     turtle.exitonclick()
