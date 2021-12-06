@@ -90,14 +90,20 @@ def vehinhnha():
 
     c.right(90)
     c.penup()
-    c.forward(400)
+    c.forward(300)
     c.left(90)
-    c.forward(60)
+    c.forward(200)
     
     c.pendown()
     c.pencolor("yellow")
     c.dot(150)
+    for i in range(4):
+        c.forward(200)
+        c.backward(200)
+        c.right(45)
+        c.forward (150)
+        c.backward(150)
+        c.right(45)
     turtle.exitonclick()
 if __name__ == "__main__":
     vehinhnha()
-
