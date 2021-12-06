@@ -86,9 +86,18 @@ def vehinhnha():
     for i in range(3):
         c.circle(80)
         c.right(90)
-   
-   
     c.end_fill()
+
+    c.right(90)
+    c.penup()
+    c.forward(400)
+    c.left(90)
+    c.forward(60)
+    
+    c.pendown()
+    c.pencolor("yellow")
+    c.dot(150)
     turtle.exitonclick()
 if __name__ == "__main__":
     vehinhnha()
+
