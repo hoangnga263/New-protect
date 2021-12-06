@@ -1,0 +1,11 @@
+def vehinhtron():
+    #khoi tao thu vien turtle 
+    import turtle
+    c = turtle.Turtle()
+    c.pensize (2)
+    c.pencolor("yellow")
+    c.circle (50)
+
+    turtle.exitonclick()
+if __name__ == "__main__":
+    vehinhtron()
