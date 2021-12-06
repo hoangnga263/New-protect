@@ -1,0 +1,15 @@
+def vehinhchunhat():
+    #khoi tao thu vien turtle 
+    import turtle
+    c = turtle.Turtle()
+    c.pensize (2)
+    c.pencolor("green")
+    for i in range (2):
+        c.forward(200);
+        c.rt(90);
+        c.fd (80);
+        c.rt(90);
+
+    turtle.exitonclick()
+if __name__ == "__main__":
+    vehinhchunhat()
