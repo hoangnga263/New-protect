@@ -1,0 +1,62 @@
+def vematcuoi():
+ #khởi tạo thư viện turtle
+        import turtle
+        a = turtle.Turtle()
+        face = 200
+        a.pencolor("yellow")
+        a.pensize(3)
+        
+        a.penup()
+        a.goto(0,-200)
+        a.pendown()
+        a.circle(face)
+        #vẽ mắt trái
+        a.pencolor("black")
+        a.penup()
+        a.goto(-100,10)
+        a.pendown()
+        a.circle (50)
+
+        a.fillcolor("black")
+        a.penup()
+        a.goto(-100,10)
+        a.pendown()
+        a.begin_fill()
+        a.circle (20)
+        a.end_fill()
+
+        #vẽ mắt phải
+        a.pencolor("black")
+        a.penup()
+        a.goto(100,10)
+        a.pendown()
+        a.circle (50)
+
+        a.fillcolor("black")
+        a.penup()
+        a.goto(100,10)
+        a.pendown()
+        a.begin_fill()
+        a.circle (20)
+        a.end_fill()
+        #vẽ mũi
+        a.penup()
+        a.goto(10,0)
+        a.pendown()
+        a.rt(135)
+        a.fd(50)
+        a.left(90)
+        a.fd(50)
+
+        #vẽ miệng
+        a.penup()
+        a.pensize(10)
+        a.goto(-50,-150)
+        a.pendown()
+        a.rt(45)
+        a.left(90)
+        a.forward(100)
+       
+
+if __name__ == "__main__":
+        vematcuoi()
